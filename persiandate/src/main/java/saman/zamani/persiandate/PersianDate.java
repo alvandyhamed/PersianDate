@@ -317,8 +317,8 @@ public class PersianDate
 	 * @return true or false
 	 */
 	public boolean isLeap(int year) {
-		double referenceYear = 1375;
-		double startYear = 1375;
+		double referenceYear = 1354;
+		double startYear = 1354;
 		double yearRes = year - referenceYear;
 		if(yearRes > 0){
 			if(yearRes >= 33){
